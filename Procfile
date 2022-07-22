@@ -1,2 +1,1 @@
-web: npm start
-web: cd student-portal && npm start
+web: npm start && cd student-portal && npm start
