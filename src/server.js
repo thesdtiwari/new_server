@@ -33,13 +33,13 @@ const app = express();
 // app.use(cors());
 //
 // to allow cors for selected origins, use
-app.use(
-  cors({
-    // use JSON.parse to convert the string received from process.env to required JavaScript format (array)
-    origin: JSON.parse(process.env.ALLOWED_ORIGINS),
-    optionsSuccessStatus: 200,
-  })
-);
+// app.use(
+//   cors({
+//     // use JSON.parse to convert the string received from process.env to required JavaScript format (array)
+//     origin: JSON.parse(at(process.env.ALLOWED_ORIGINS)),
+//     optionsSuccessStatus: 200,
+//   })
+// );
 // /////////////////////    CORS END /////////////////////////////////////////
 
 // log all requests in console
