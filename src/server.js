@@ -73,6 +73,10 @@ app.use(function (req, res, next) {
 });
 
 // test route
+app.get("/", (req,res) =>{
+  res.redirect("https://scpt-ui.netlify.app/home");
+});
+
 app.use("/test", routes.test);
 
 // login the user
